@@ -34,6 +34,18 @@ class ViewController: UIViewController {
         var myRootRef = Firebase(url:"https://nashnext1.firebaseio.com/")
         // Write data to Firebase
         myRootRef.setValue("Do you have data? You'll love Firebase.")
+        // Read data and react to changes
+        myRootRef.observeEventType(.Value, withBlock: {
+            snapshot in
+            println("\(snapshot.key) -> \(snapshot.value)")
+            self.weatherLabel.text = snapshot.value! as? String 
+            
+        
+        
+        })
+    
+    
+    
     }
 
     override func didReceiveMemoryWarning() {

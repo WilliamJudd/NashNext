@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E6EF736-7A73-4519-855A-EC8D1631EB29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NashNext</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDA7051FBBCDAFDFAB164714F264891568A4FA74</key>
+		<string>https://github.com/WilliamJudd/NashNext.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NashNext.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDA7051FBBCDAFDFAB164714F264891568A4FA74</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/WilliamJudd/NashNext.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDA7051FBBCDAFDFAB164714F264891568A4FA74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDA7051FBBCDAFDFAB164714F264891568A4FA74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NashNext</string>
+		</dict>
+	</array>
+</dict>
+</plist>

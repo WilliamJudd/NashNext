@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0D29551B14ED8C00969400 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D29541B14ED8C00969400 /* libicucore.dylib */; };
+		3D0D29571B14ED9A00969400 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D29561B14ED9A00969400 /* libc++.dylib */; };
+		3D0D29591B14EDA100969400 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D29581B14EDA100969400 /* CFNetwork.framework */; };
+		3D0D295B1B14EDA800969400 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D295A1B14EDA800969400 /* Security.framework */; };
+		3D0D295D1B14EDB000969400 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D295C1B14EDB000969400 /* SystemConfiguration.framework */; };
+		3D0D299E1B14F1AA00969400 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D299D1B14F1AA00969400 /* Firebase.framework */; };
 		3D853EF21B14CC9D0004ADB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D853EF11B14CC9D0004ADB5 /* AppDelegate.swift */; };
 		3D853EF41B14CC9D0004ADB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D853EF31B14CC9D0004ADB5 /* ViewController.swift */; };
 		3D853EF71B14CC9D0004ADB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D853EF51B14CC9D0004ADB5 /* Main.storyboard */; };
 		3D853EF91B14CC9D0004ADB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D853EF81B14CC9D0004ADB5 /* Images.xcassets */; };
 		3D853EFC1B14CC9D0004ADB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D853EFA1B14CC9D0004ADB5 /* LaunchScreen.xib */; };
 		3D853F081B14CC9D0004ADB5 /* NashNextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D853F071B14CC9D0004ADB5 /* NashNextTests.swift */; };
-		3DB10CE91B14E38000B08C99 /* Firebase-3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CE81B14E38000B08C99 /* Firebase-3.framework */; };
-		3DB10CEB1B14E3AC00B08C99 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */; };
-		3DB10CED1B14E3C400B08C99 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEC1B14E3C400B08C99 /* libc++.dylib */; };
-		3DB10CEF1B14E3CC00B08C99 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */; };
-		3DB10CF11B14E3D400B08C99 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CF01B14E3D400B08C99 /* Security.framework */; };
-		3DB10CF31B14E3DD00B08C99 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0D29541B14ED8C00969400 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3D0D29561B14ED9A00969400 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3D0D29581B14EDA100969400 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D0D295A1B14EDA800969400 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D0D295C1B14EDB000969400 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D0D299D1B14F1AA00969400 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		3D1B0BF31B14EA1C00CE9830 /* NashNext-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NashNext-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D853EEC1B14CC9D0004ADB5 /* NashNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NashNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D853EF01B14CC9D0004ADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,12 +49,6 @@
 		3D853F011B14CC9D0004ADB5 /* NashNextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NashNextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D853F061B14CC9D0004ADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D853F071B14CC9D0004ADB5 /* NashNextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NashNextTests.swift; sourceTree = "<group>"; };
-		3DB10CE81B14E38000B08C99 /* Firebase-3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Firebase-3.framework"; sourceTree = "<group>"; };
-		3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		3DB10CEC1B14E3C400B08C99 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		3DB10CF01B14E3D400B08C99 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB10CF31B14E3DD00B08C99 /* SystemConfiguration.framework in Frameworks */,
-				3DB10CF11B14E3D400B08C99 /* Security.framework in Frameworks */,
-				3DB10CEF1B14E3CC00B08C99 /* CFNetwork.framework in Frameworks */,
-				3DB10CED1B14E3C400B08C99 /* libc++.dylib in Frameworks */,
-				3DB10CEB1B14E3AC00B08C99 /* libicucore.dylib in Frameworks */,
-				3DB10CE91B14E38000B08C99 /* Firebase-3.framework in Frameworks */,
+				3D0D295D1B14EDB000969400 /* SystemConfiguration.framework in Frameworks */,
+				3D0D299E1B14F1AA00969400 /* Firebase.framework in Frameworks */,
+				3D0D295B1B14EDA800969400 /* Security.framework in Frameworks */,
+				3D0D29591B14EDA100969400 /* CFNetwork.framework in Frameworks */,
+				3D0D29571B14ED9A00969400 /* libc++.dylib in Frameworks */,
+				3D0D29551B14ED8C00969400 /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +81,12 @@
 				3D853EEE1B14CC9D0004ADB5 /* NashNext */,
 				3D853F041B14CC9D0004ADB5 /* NashNextTests */,
 				3D853EED1B14CC9D0004ADB5 /* Products */,
-				3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */,
-				3DB10CF01B14E3D400B08C99 /* Security.framework */,
-				3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */,
-				3DB10CEC1B14E3C400B08C99 /* libc++.dylib */,
-				3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */,
-				3DB10CE81B14E38000B08C99 /* Firebase-3.framework */,
+				3D0D295C1B14EDB000969400 /* SystemConfiguration.framework */,
+				3D0D295A1B14EDA800969400 /* Security.framework */,
+				3D0D29581B14EDA100969400 /* CFNetwork.framework */,
+				3D0D29561B14ED9A00969400 /* libc++.dylib */,
+				3D0D29541B14ED8C00969400 /* libicucore.dylib */,
+				3D0D299D1B14F1AA00969400 /* Firebase.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -370,6 +370,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/William/Downloads,
 				);
 				INFOPLIST_FILE = NashNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -389,6 +390,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/William/Downloads,
 				);
 				INFOPLIST_FILE = NashNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
