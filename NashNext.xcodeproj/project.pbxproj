@@ -13,6 +13,12 @@
 		3D853EF91B14CC9D0004ADB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D853EF81B14CC9D0004ADB5 /* Images.xcassets */; };
 		3D853EFC1B14CC9D0004ADB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D853EFA1B14CC9D0004ADB5 /* LaunchScreen.xib */; };
 		3D853F081B14CC9D0004ADB5 /* NashNextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D853F071B14CC9D0004ADB5 /* NashNextTests.swift */; };
+		3DB10CE91B14E38000B08C99 /* Firebase-3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CE81B14E38000B08C99 /* Firebase-3.framework */; };
+		3DB10CEB1B14E3AC00B08C99 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */; };
+		3DB10CED1B14E3C400B08C99 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEC1B14E3C400B08C99 /* libc++.dylib */; };
+		3DB10CEF1B14E3CC00B08C99 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */; };
+		3DB10CF11B14E3D400B08C99 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CF01B14E3D400B08C99 /* Security.framework */; };
+		3DB10CF31B14E3DD00B08C99 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D1B0BF31B14EA1C00CE9830 /* NashNext-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NashNext-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D853EEC1B14CC9D0004ADB5 /* NashNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NashNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D853EF01B14CC9D0004ADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D853EF11B14CC9D0004ADB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,12 @@
 		3D853F011B14CC9D0004ADB5 /* NashNextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NashNextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D853F061B14CC9D0004ADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D853F071B14CC9D0004ADB5 /* NashNextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NashNextTests.swift; sourceTree = "<group>"; };
+		3DB10CE81B14E38000B08C99 /* Firebase-3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Firebase-3.framework"; sourceTree = "<group>"; };
+		3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3DB10CEC1B14E3C400B08C99 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3DB10CF01B14E3D400B08C99 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB10CF31B14E3DD00B08C99 /* SystemConfiguration.framework in Frameworks */,
+				3DB10CF11B14E3D400B08C99 /* Security.framework in Frameworks */,
+				3DB10CEF1B14E3CC00B08C99 /* CFNetwork.framework in Frameworks */,
+				3DB10CED1B14E3C400B08C99 /* libc++.dylib in Frameworks */,
+				3DB10CEB1B14E3AC00B08C99 /* libicucore.dylib in Frameworks */,
+				3DB10CE91B14E38000B08C99 /* Firebase-3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,12 @@
 				3D853EEE1B14CC9D0004ADB5 /* NashNext */,
 				3D853F041B14CC9D0004ADB5 /* NashNextTests */,
 				3D853EED1B14CC9D0004ADB5 /* Products */,
+				3DB10CF21B14E3DD00B08C99 /* SystemConfiguration.framework */,
+				3DB10CF01B14E3D400B08C99 /* Security.framework */,
+				3DB10CEE1B14E3CC00B08C99 /* CFNetwork.framework */,
+				3DB10CEC1B14E3C400B08C99 /* libc++.dylib */,
+				3DB10CEA1B14E3AC00B08C99 /* libicucore.dylib */,
+				3DB10CE81B14E38000B08C99 /* Firebase-3.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				3D853EF01B14CC9D0004ADB5 /* Info.plist */,
+				3D1B0BF31B14EA1C00CE9830 /* NashNext-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,9 +366,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NashNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NashNext/NashNext-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +385,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NashNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NashNext/NashNext-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 			};
 			name = Release;
 		};
@@ -409,6 +452,7 @@
 				3D853F0D1B14CC9D0004ADB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D853F0E1B14CC9D0004ADB5 /* Build configuration list for PBXNativeTarget "NashNextTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +461,7 @@
 				3D853F101B14CC9D0004ADB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
