@@ -11,13 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var weatherLabel: UILabel!
-    
-    
-    @IBOutlet weak var buttonSunny: UIButton!
-    
-    
-    @IBOutlet weak var buttonFoggy: UIButton!
+   
+    @IBOutlet weak var myWebView: UIWebView!
     
     
     override func viewDidLoad() {
@@ -25,24 +20,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     
         
-        
+        let url = NSURL (string: "https://nn2.firebaseapp.com");
+        let requestObj = NSURLRequest(URL: url!);
+        myWebView.loadRequest(requestObj);
+       
         
         
         
        
-        // Create a reference to a Firebase location
-        var myRootRef = Firebase(url:"https://nashnext1.firebaseio.com/")
-        // Write data to Firebase
-        myRootRef.setValue("Do you have data? You'll love Firebase.")
-        // Read data and react to changes
-        myRootRef.observeEventType(.Value, withBlock: {
-            snapshot in
-            println("\(snapshot.key) -> \(snapshot.value)")
-            self.weatherLabel.text = snapshot.value! as? String 
-            
+//        // Create a reference to a Firebase location
+//        var myRootRef = Firebase(url:"https://nashnext1.firebaseio.com/")
+//        // Write data to Firebase
+//        myRootRef.setValue("Do you have data? You'll love Firebase.")
+//        // Read data and react to changes
+//        myRootRef.observeEventType(.Value, withBlock: {
+//            snapshot in
+//            println("\(snapshot.key) -> \(snapshot.value)")
         
         
-        })
+//        })
     
     
     
@@ -52,7 +48,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+   
 
 }
 
