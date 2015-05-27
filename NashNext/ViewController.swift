@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class ViewController: UIViewController {
 
@@ -24,7 +25,11 @@ class ViewController: UIViewController {
         let requestObj = NSURLRequest(URL: url!);
         myWebView.loadRequest(requestObj);
        
-        
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            println("Object has been saved.")
+        }
         
         
        
