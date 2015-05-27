@@ -24,7 +24,9 @@ class ViewController: UIViewController {
         let url = NSURL (string: "https://nn2.firebaseapp.com");
         let requestObj = NSURLRequest(URL: url!);
         myWebView.loadRequest(requestObj);
-       
+        myWebView.scrollView.bounces = false;
+
+        
         let testObject = PFObject(className: "TestObject")
         testObject["foo"] = "bar"
         testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
